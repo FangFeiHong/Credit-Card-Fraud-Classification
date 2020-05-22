@@ -10,7 +10,10 @@ What I did on this project are :
 * Data splitting
 * Modelling (using Logistic Regression, Random Forest Classification, Artificial Neural Network, and XGBoost)
 * Feature Importance
+* f1 score and AUC computation
+* Create Precision and Recall Curve
 
 Result :
 * For this dataset the best methods are XGBoost and Random Forest Classification (based on F1 Score).
-* After filtering the feature based on feature importance on Logistic Regression model and fitted it to the model, the result weren't improved (again based on F1 Score).
+* But if added AUC calculation and compare it for every model, Random Forest Classification is the best method that can be used for this dataset.
+* After filtering the feature based on feature importance on Logistic Regression model and fitted it to the model, the result weren't improved (again based on F1 Score and AUC).
